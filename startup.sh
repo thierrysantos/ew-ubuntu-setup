@@ -94,11 +94,6 @@ nvm alias default 12
 node --version
 npm --version
 
-echo 'installing autosuggestions' 
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
-source ~/.zshrc
-
 echo 'installing theme'
 sudo apt install fonts-firacode -y
 wget -O ~/.oh-my-zsh/themes/node.zsh-theme https://raw.githubusercontent.com/skuridin/oh-my-zsh-node-theme/master/node.zsh-theme 
